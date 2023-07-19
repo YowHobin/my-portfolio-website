@@ -1,32 +1,21 @@
 import { useState } from "react";
 import "./header.css";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-
 
 
 const Header = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false,
-      mirror: false,
-      offset: -1,
-    });
-  }, []);
+
   /* ==========Toggle Menu========== */
   const [Toggle, showMenu] = useState(false);
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo" data-aos="zoom-in">
+        <a href="index.html" className="nav__logo" >
           Lenard
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
-          <ul className="nav__list grid" data-aos="zoom-in">
+          <ul className="nav__list grid" >
             <li className="nav__item">
               <a href="#home" className="nav__link active-link">
                 <i className="uil uil-estate nav__icon"></i> Home
