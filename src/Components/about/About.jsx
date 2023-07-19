@@ -32,14 +32,14 @@ const About = () => {
           src={AboutImg}
           alt="image"
           className="about__img"
-          data-aos="zoom-in-down"
+          data-aos="zoom-in-right"
           data-aos-delay="300"
         />
 
         <div className="about__data">
           <p
             className="about__description"
-            data-aos="zoom-in-down"
+            data-aos="zoom-in-left"
             data-aos-delay="300"
           >
             Web developer, I create web pages with UI / UX user interface, I
