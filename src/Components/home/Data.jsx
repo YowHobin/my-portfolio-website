@@ -1,8 +1,20 @@
-import React from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React,{ useEffect } from 'react';
 import Typed from 'typed.js';
 
 
+
 const Data = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: false,
+    });
+    
+  }, []);
 
   const el = React.useRef(null);
 
@@ -23,23 +35,33 @@ const Data = () => {
     };
   }, []);
 
+  
+
   return (
     <div className="home__data">
-      <h1 className="home__title">
+      <h1 className="home__title" data-aos="fade-down" data-aos-delay="200">
         Lenard Roy Arellano
-
       </h1>
 
-      <h3 className="home__subtitle">
+      <h3 className="home__subtitle" data-aos="fade-down" data-aos-delay="300">
         <span ref={el}></span>
       </h3>
 
-      <p className="home__description">
+      <p
+        className="home__description"
+        data-aos="fade-down"
+        data-aos-delay="400"
+      >
         I'm a Web Developer based in Pasig, Philippines and I'm very passionate
         and dedicated to my work.
       </p>
 
-      <a href="mailto:lenardroyarellano@gmail.com" className="button button--flex">
+      <a
+        href="mailto:lenardroyarellano@gmail.com"
+        className="button button--flex"
+        data-aos="zoom-in"
+        data-aos-delay="500"
+      >
         Say Hello
         <svg
           class="button__icon"

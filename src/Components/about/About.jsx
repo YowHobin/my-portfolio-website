@@ -1,17 +1,47 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import AboutImg from "../../assets/about.jpg";
 import "./about.css";
 
+
+
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: false,
+    });
+  }, []);
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">What about it?</span>
+      <h2 className="section__title" data-aos="fade-down">
+        About Me
+      </h2>
+      <span
+        className="section__subtitle"
+        data-aos="fade-down"
+        data-aos-delay="200"
+      >
+        What about it?
+      </span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="image" className="about__img" />
+        <img
+          src={AboutImg}
+          alt="image"
+          className="about__img"
+          data-aos="fade-right"
+          data-aos-delay="300"
+        />
 
         <div className="about__data">
-          <p className="about__description">
+          <p
+            className="about__description"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
             Web developer, I create web pages with UI / UX user interface, I
             have years of experience and many clients are happy with the
             projects carried out.
@@ -20,8 +50,10 @@ const About = () => {
           <a
             href="https://drive.google.com/file/d/1g6-NGmpM_va49jsoOVPAD4M1TPm9IwOQ/view?usp=sharing"
             className="button button--flex"
-            target="_blank" // Add this attribute
-            rel="noopener noreferrer" // Also add the rel attribute for security reasons
+            target="_blank"
+            rel="noopener noreferrer" 
+            data-aos="zoom-in"
+            data-aos-delay="300"
           >
             Download CV
             <svg

@@ -1,7 +1,19 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const ScrollDown = () => {
+    useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        once: false,
+        mirror: false,
+        offset: -1,
+      });
+      
+    }, []);
   return (
-    <div className="home__scroll">
+    <div className="home__scroll" data-aos="fade-up" data-aos-delay="600">
       <a href="#about" className="home__scroll-button button--flex">
         <svg
           width="32px"
