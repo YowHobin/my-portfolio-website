@@ -16,18 +16,13 @@ const About = () => {
   }, []);
   return (
     <section className="about section" id="about">
-      <h2
-        className="section__title"
-        data-aos="fade-down"
-        data-aos-anchor-placement="center-center"
-      >
+      <h2 className="section__title" data-aos="zoom-in-down">
         About Me
       </h2>
       <span
         className="section__subtitle"
         data-aos="fade-down"
         data-aos-delay="200"
-        data-aos-anchor-placement="center-center"
       >
         What about it?
       </span>
@@ -37,17 +32,15 @@ const About = () => {
           src={AboutImg}
           alt="image"
           className="about__img"
-          data-aos="fade-right"
+          data-aos="zoom-in-down"
           data-aos-delay="300"
-          data-aos-anchor-placement="center-center"
         />
 
         <div className="about__data">
           <p
             className="about__description"
-            data-aos="fade-left"
+            data-aos="zoom-in-down"
             data-aos-delay="300"
-            data-aos-anchor-placement="center-center"
           >
             Web developer, I create web pages with UI / UX user interface, I
             have years of experience and many clients are happy with the
