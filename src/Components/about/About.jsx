@@ -16,13 +16,18 @@ const About = () => {
   }, []);
   return (
     <section className="about section" id="about">
-      <h2 className="section__title" data-aos="fade-down">
+      <h2
+        className="section__title"
+        data-aos="fade-down"
+        data-aos-anchor-placement="center-center"
+      >
         About Me
       </h2>
       <span
         className="section__subtitle"
         data-aos="fade-down"
         data-aos-delay="200"
+        data-aos-anchor-placement="center-center"
       >
         What about it?
       </span>
@@ -34,6 +39,7 @@ const About = () => {
           className="about__img"
           data-aos="fade-right"
           data-aos-delay="300"
+          data-aos-anchor-placement="center-center"
         />
 
         <div className="about__data">
@@ -41,6 +47,7 @@ const About = () => {
             className="about__description"
             data-aos="fade-left"
             data-aos-delay="300"
+            data-aos-anchor-placement="center-center"
           >
             Web developer, I create web pages with UI / UX user interface, I
             have years of experience and many clients are happy with the
@@ -51,7 +58,7 @@ const About = () => {
             href="https://drive.google.com/file/d/1g6-NGmpM_va49jsoOVPAD4M1TPm9IwOQ/view?usp=sharing"
             className="button button--flex"
             target="_blank"
-            rel="noopener noreferrer" 
+            rel="noopener noreferrer"
             data-aos="zoom-in"
             data-aos-delay="300"
           >
