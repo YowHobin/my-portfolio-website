@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./header.css";
 
-
-
 const Header = () => {
 
   /* ==========Toggle Menu========== */

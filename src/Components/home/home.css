@@ -1,5 +1,6 @@
 .home__container {
   row-gap: 7rem;
+  margin-bottom: 4rem;
 }
 
 .home__content {
@@ -55,7 +56,6 @@
 .home__img{
   background: url(../../assets/1964_ARELLANO_LENARD_ROY_CEA22439.JPG);
   background-repeat: no-repeat;
-  background-position: top;
   background-size: cover;
   box-shadow: 0px 0px 42px 5px #787878;
   order: 1;
@@ -79,19 +79,7 @@
   }
 }
 
-/* image blur when not loaded */
-.home__img.loaded {
-  background: url(../../assets/1964_ARELLANO_LENARD_ROY_CEA22439.JPG);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  box-shadow: 0px 0px 42px 5px #787878;
-  order: 1;
-  justify-self: center;
-  width: 300px;
-  height: 380px;
-  animation: profile__animate 5s ease-in-out infinite 1s;
-}
+
 
 
 

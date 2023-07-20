@@ -30,7 +30,7 @@ const About = () => {
       <div className="about__container container grid">
         <img
           src={AboutImg}
-          alt="image"
+          alt="gradpic"
           className="about__img"
           data-aos="zoom-in-right"
           data-aos-delay="300"
