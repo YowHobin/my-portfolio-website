@@ -51,13 +51,14 @@ const About = () => {
             projects carried out.
           </p>
 
+          <div data-aos="zoom-in"
+            data-aos-delay="300">
           <a
             href="https://drive.google.com/file/d/1g6-NGmpM_va49jsoOVPAD4M1TPm9IwOQ/view?usp=sharing"
             className="button button--flex"
             target="_blank"
             rel="noopener noreferrer"
-            data-aos="zoom-in"
-            data-aos-delay="300"
+
           >
             Download CV
             <svg
@@ -86,6 +87,9 @@ const About = () => {
               ></path>
             </svg>
           </a>
+          </div>
+
+
         </div>
       </div>
     </section>

@@ -15,6 +15,7 @@
   --body-color: hsl(var(--hue), var(--sat), 95%);
   --container-color: #fff;
   --green-color: #517d4a;
+  --lightgreen-color: #7ac16f;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -149,7 +150,7 @@ img {
 }
 
 /*=============== BUTTONS ===============*/
-.button {
+/* .button {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
@@ -157,11 +158,12 @@ img {
   border-radius: 2rem;
   font-weight: var(--font-medium);
   max-width: 13rem;
+  transition: background-color 0.5s ease;
 
 }
 
 .button:hover {
-  background-color: var(--green-color);
+  background-color: var(--body-color);
 }
 
 .button__icon {
@@ -172,7 +174,35 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+} */
+
+/* =============== BUTTONS =============== */
+/* =============== BUTTONS =============== */
+.button {
+  display: inline-block;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1.25rem 2rem;
+  border-radius: 2rem;
+  font-weight: var(--font-medium);
+  max-width: 13rem;
+  transition: all 0.3s ease-out; /* Updated transition duration */
 }
+
+.button:hover {
+  background-color: var(--green-color);
+  transform: scale(1.1);
+}
+
+.button__icon {
+  margin-left: var(--mb-0-5);
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

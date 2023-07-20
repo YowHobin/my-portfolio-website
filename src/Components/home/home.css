@@ -17,14 +17,18 @@
 }
 
 
-
-.home__social-icon {
+.home__social-icon{
   font-size: 1.25rem;
   color: var(--title-color);
+  transition: all 0.3s ease-out;
 }
 
+
+
+
 .home__social-icon:hover{
-  color: var(--color-green);
+  font-size: 1.60rem;
+  color: var(--lightgreen-color);
 }
 
 
@@ -52,9 +56,6 @@
   justify-content: center;
 }
 
-
-
-
 .home__img{
   background: url(../../assets/1964_ARELLANO_LENARD_ROY_CEA22439.JPG);
   background-repeat: no-repeat;
@@ -66,6 +67,8 @@
   height: 380px;
   animation: profile__animate 5s ease-in-out infinite 1s;
 }
+
+
 
 @keyframes profile__animate {
   0% {
@@ -133,7 +136,6 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
 
-  
 
   .home__content {
     grid-template-columns: 100px repeat(2, 1fr);
@@ -171,7 +173,7 @@
 
   .home__content {
     grid-template-columns: 1.5fr 3fr;
-    padding-top: 3.5rem;
+    padding-top: 2rem;
   }
 
   .home__img {

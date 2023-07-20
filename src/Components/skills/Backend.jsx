@@ -3,6 +3,8 @@ import PHP from "../../assets/php.png"
 import sql from "../../assets/mysql.png"
 import node from "../../assets/nodejs.png"
 import next from "../../assets/next.png"
+import mongodb from "../../assets/mongodb.png"
+import prisma from "../../assets/prisma.png"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -45,6 +47,18 @@ const Backend = () => {
             
           </div>
 
+          <div className="skills__data">
+            <img src={prisma} alt="html"  className="logos"/>
+            
+            <div>
+              <h3 className="skills__name">Prisma</h3>
+              <span className="skills__level">Less than 6 months</span>
+            </div>
+            
+          </div>
+
+        
+
           
         </div>
 
@@ -71,6 +85,15 @@ const Backend = () => {
             
           </div>
 
+  <div className="skills__data">
+            <img src={mongodb} alt="html"  className="logos"/>
+            
+            <div>
+              <h3 className="skills__name">MongoDB</h3>
+              <span className="skills__level">Less than 6 months</span>
+            </div>
+            
+          </div>
           
         </div>
 

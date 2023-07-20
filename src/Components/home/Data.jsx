@@ -56,11 +56,11 @@ const Data = () => {
         and dedicated to my work.
       </p>
 
-       <a
+      <div data-aos="zoom-in-down" data-aos-delay="500">
+        <a
         href="mailto:lenardroyarellano@gmail.com"
-        className="button button__data button--flex"
-        data-aos="zoom-in"
-        data-aos-delay="500"
+        className="button button--flex button-data"
+
       >
         Say Hello
         <svg
@@ -81,8 +81,8 @@ const Data = () => {
           ></path>
         </svg>
       </a> 
-
- 
+      </div>
+      
     </div>
   );
 }

@@ -109,7 +109,7 @@ const Frontend = () => {
             <img src={Next} alt="html"  className="logos"/>
             
             <div>
-              <h3 className="skills__name">NextJs</h3>
+              <h3 className="skills__name">NextJS</h3>
               <span className="skills__level">Less than 6 months</span>
             </div>
             
