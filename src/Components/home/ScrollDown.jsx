@@ -57,4 +57,4 @@ const ScrollDown = () => {
   );
 }
 
-export default ScrollDown
+export default ScrollDown;

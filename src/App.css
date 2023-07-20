@@ -12,8 +12,9 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --body-color: hsl(var(--hue), var(--sat), 95%);
   --container-color: #fff;
+  --green-color: #517d4a;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -73,6 +74,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 
 body,
 button,
@@ -154,17 +156,16 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 2rem;
   font-weight: var(--font-medium);
-  transition: .20s all ease-in-out;
+  max-width: 13rem;
+
 }
 
 .button:hover {
-  background-color: #517d4a;
-  padding: 1.25rem 2.25rem;
+  background-color: var(--green-color);
 }
 
 .button__icon {
   margin-left: var(--mb-0-5);
-  transition: .3s color ease-in-out;
 }
 
 

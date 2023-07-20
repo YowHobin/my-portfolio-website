@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./header.css";
+import Logo from "../../assets/Website-logo.png";
 
 const Header = () => {
 
@@ -9,7 +10,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo" >
-          Lenard
+          <img src={Logo} alt="my-logo" className="logo"/>
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
@@ -65,4 +66,4 @@ const Header = () => {
   );
 }
 
-export default Header
+export default Header;

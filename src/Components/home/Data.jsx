@@ -56,9 +56,9 @@ const Data = () => {
         and dedicated to my work.
       </p>
 
-      <a
+       <a
         href="mailto:lenardroyarellano@gmail.com"
-        className="button button--flex"
+        className="button button__data button--flex"
         data-aos="zoom-in"
         data-aos-delay="500"
       >
@@ -80,9 +80,11 @@ const Data = () => {
             fill="var(--container-color)"
           ></path>
         </svg>
-      </a>
+      </a> 
+
+ 
     </div>
   );
 }
 
-export default Data
+export default Data;
