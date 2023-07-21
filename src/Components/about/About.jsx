@@ -37,7 +37,7 @@ const About = () => {
           className="about__img"
           data-aos="zoom-in-right"
           data-aos-delay="300"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="center-bottom"
         />
 
         <div className="about__data">
@@ -45,17 +45,13 @@ const About = () => {
             className="about__description"
             data-aos="zoom-in-left"
             data-aos-delay="300"
-            
           >
             Web developer, I create web pages with UI / UX user interface, I
             have years of experience and many clients are happy with the
             projects carried out.
           </p>
 
-          <div
-            data-aos="zoom-in"
-            data-aos-delay="300"
-          >
+          <div data-aos="zoom-in" data-aos-delay="300">
             <a
               href="https://drive.google.com/file/d/1g6-NGmpM_va49jsoOVPAD4M1TPm9IwOQ/view?usp=sharing"
               className="button button--flex"
