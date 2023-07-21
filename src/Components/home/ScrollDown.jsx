@@ -9,6 +9,7 @@ const ScrollDown = () => {
         once: false,
         mirror: false,
         offset: -1,
+        anchorPlacement: "top-center",
       });
       
     }, []);

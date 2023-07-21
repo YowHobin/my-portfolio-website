@@ -3,7 +3,20 @@ import Backend from "./Backend";
 import Frontend from "./Frontend";
 import "./skills.css";
 
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Skills = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: false,
+      anchorPlacement: "top-center",
+    });
+  }, []);
   return (
     <section className="skills section" id="skills">
       <h2

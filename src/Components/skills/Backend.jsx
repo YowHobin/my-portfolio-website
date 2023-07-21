@@ -22,6 +22,7 @@ const Backend = () => {
       className="skills__content"
       data-aos="zoom-in-down"
       data-aos-delay="600"
+      data-aos-anchor-placement="center-bottom"
     >
       <h3 className="skills__title">Back-End</h3>
 

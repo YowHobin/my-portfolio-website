@@ -8,6 +8,7 @@ const Social = () => {
       duration: 1000,
       once: false,
       mirror: false,
+      anchorPlacement: "top-center",
     });
     
   }, []);

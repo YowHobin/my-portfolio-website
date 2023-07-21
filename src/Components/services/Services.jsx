@@ -17,6 +17,7 @@ const Services = () => {
       duration: 1000,
       once: false,
       mirror: false,
+      
     });
   }, []);
 
@@ -43,6 +44,7 @@ const Services = () => {
           className="services__content"
           data-aos="zoom-in-down"
           data-aos-delay="400"
+          data-aos-anchor-placement="center-bottom"
         >
           <div>
             <i className="uil uil-arrow services__icon"></i>
@@ -117,6 +119,7 @@ const Services = () => {
           className="services__content"
           data-aos="zoom-in-down"
           data-aos-delay="600"
+          data-aos-anchor-placement="center-bottom"
         >
           <div>
             <i className="uil uil-edit services__icon"></i>

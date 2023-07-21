@@ -21,6 +21,7 @@ const AcquiredSkills = () => {
       className="skills__content"
       data-aos="zoom-in-down"
       data-aos-delay="800"
+      data-aos-anchor-placement="center-bottom"
     >
       <div className="skills_header">
         <h3 className="ASskills__title">Tools</h3>
