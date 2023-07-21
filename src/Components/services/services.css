@@ -18,6 +18,7 @@
   font-size: 2rem;
   color: var(--title-color);
   margin-bottom: var(--mb-1);
+  max-width: 2rem;
 }
 
 .services__title {
