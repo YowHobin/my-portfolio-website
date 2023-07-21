@@ -2,8 +2,10 @@ import "./App.css";
 import About from "./Components/about/About";
 import Header from "./Components/header/Header";
 import Home from "./Components/home/Home";
-import Skills from "./Components/skills/Skills";
+import { Qualification } from "./Components/qualification/Qualification";
 import Services from "./Components/services/Services";
+import Skills from "./Components/skills/Skills";
+
 
 
 const App = () => {
@@ -13,6 +15,7 @@ const App = () => {
       <main className="main">
         <Home />
         <About />
+        <Qualification />
         <Skills />
         <Services />
       </main>

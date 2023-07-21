@@ -46,9 +46,11 @@ const About = () => {
             data-aos="zoom-in-left"
             data-aos-delay="300"
           >
-            Web developer, I create web pages with UI / UX user interface, I
-            have years of experience and many clients are happy with the
-            projects carried out.
+            As a recent web development graduate, I am eager to leverage
+            my technical skills and creativity to contribute to innovative
+            digital projects. My journey into the world of web development began
+            with a fascination for crafting visually appealing and intuitive
+            user experiences that seamlessly blend form and function.
           </p>
 
           <div data-aos="zoom-in" data-aos-delay="300">

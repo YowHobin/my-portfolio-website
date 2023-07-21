@@ -205,6 +205,10 @@
   .home__content{
     grid-template-columns: 0.7fr 3fr;
   }
+
+  .home__description{
+    text-align: center;
+  }
 }
 
 
@@ -220,6 +224,7 @@
 
   .home__description{
     font-size: var(--small-font-size);
+    text-align: center;
   }
 }
 
