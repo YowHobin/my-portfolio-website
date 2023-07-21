@@ -64,6 +64,29 @@
   scale: 1.2;
 }
 
+/* .ASsection__title {
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  display: flex;
+  justify-content: center;
+} */
+
+.skills_header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ASskills__title{
+  font-size: var(--h2-font-size);
+  margin-top: -0.3rem;
+}
+
+.skills__subtitle{
+  margin-bottom: 1.5rem;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

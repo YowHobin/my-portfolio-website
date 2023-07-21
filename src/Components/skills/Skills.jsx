@@ -1,9 +1,7 @@
-import React from 'react';
 import AcquiredSkills from "./AcquiredSkills";
 import Backend from "./Backend";
 import Frontend from "./Frontend";
 import "./skills.css";
-
 
 const Skills = () => {
   return (
@@ -31,7 +29,7 @@ const Skills = () => {
         <AcquiredSkills />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

@@ -149,34 +149,7 @@ img {
   gap: 1.5rem;
 }
 
-/*=============== BUTTONS ===============*/
-/* .button {
-  display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 2rem;
-  font-weight: var(--font-medium);
-  max-width: 13rem;
-  transition: background-color 0.5s ease;
 
-}
-
-.button:hover {
-  background-color: var(--body-color);
-}
-
-.button__icon {
-  margin-left: var(--mb-0-5);
-}
-
-
-.button--flex {
-  display: inline-flex;
-  align-items: center;
-} */
-
-/* =============== BUTTONS =============== */
 /* =============== BUTTONS =============== */
 .button {
   display: inline-block;
