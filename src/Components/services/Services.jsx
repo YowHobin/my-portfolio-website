@@ -17,7 +17,6 @@ const Services = () => {
       duration: 1000,
       once: false,
       mirror: false,
-      
     });
   }, []);
 
@@ -39,24 +38,25 @@ const Services = () => {
         What I can do
       </span>
 
-      <div className="services__container container grid">
-        <div
-          className="services__content"
-          data-aos="zoom-in-down"
-          data-aos-delay="400"
-          data-aos-anchor-placement="center-bottom"
-        >
-          <div>
-            <i className="uil uil-arrow services__icon"></i>
-            <h3 className="services__title">
-              Web <br /> Developer
-            </h3>
-          </div>
+      <div className="services__container container grid" >
+        <div className="services__content" >
+          <div
+            className="animate"
+            data-aos="flip-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div>
+              <i className="uil uil-arrow services__icon"></i>
+              <h3 className="services__title">
+                Web <br /> Developer
+              </h3>
+            </div>
 
-          <span className="services__button" onClick={() => toggleTab(1)}>
-            View More
-            <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
+            <span className="services__button" onClick={() => toggleTab(1)}>
+              View More
+              <i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+          </div>
 
           <div
             className={
@@ -115,23 +115,24 @@ const Services = () => {
           </div>
         </div>
 
-        <div
-          className="services__content"
-          data-aos="zoom-in-down"
-          data-aos-delay="600"
-          data-aos-anchor-placement="center-bottom"
-        >
-          <div>
-            <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">
-              UI / UX <br /> Designer
-            </h3>
-          </div>
+        <div className="services__content">
+          <div
+            className="animate"
+            data-aos="flip-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div>
+              <i className="uil uil-edit services__icon"></i>
+              <h3 className="services__title">
+                UI / UX <br /> Designer
+              </h3>
+            </div>
 
-          <span onClick={() => toggleTab(2)} className="services__button">
-            View More
-            <i className="uil uil-arrow-right services__button-icon"></i>
-          </span>
+            <span onClick={() => toggleTab(2)} className="services__button">
+              View More
+              <i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+          </div>
 
           <div
             className={
