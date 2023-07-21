@@ -126,7 +126,7 @@ const Services = () => {
             <div>
               <i className="uil uil-edit services__icon"></i>
               <h3 className="services__title">
-                UI / UX <br /> Designer
+                UI / UX <br /> Design
               </h3>
             </div>
 
