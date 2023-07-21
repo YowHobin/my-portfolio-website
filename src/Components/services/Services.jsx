@@ -44,6 +44,7 @@ const Services = () => {
             className="animate"
             data-aos="flip-up"
             data-aos-anchor-placement="center-bottom"
+            data-aos-delay="500"
           >
             <div>
               <i className="uil uil-arrow services__icon"></i>
@@ -122,6 +123,7 @@ const Services = () => {
             className="animate"
             data-aos="flip-up"
             data-aos-anchor-placement="center-bottom"
+            data-aos-delay="600"
           >
             <div>
               <i className="uil uil-edit services__icon"></i>
