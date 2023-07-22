@@ -52,8 +52,14 @@
 .active-link,
 .nav__link:hover {
   color: #7ac16f;
+  border-bottom:3px solid #7ac16f;
 }
 
+/* change background header */
+
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
+}
 
 /* ==========BREAKPOINTS========== */
 /* For medium devices */
@@ -102,10 +108,12 @@
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--title-color);
+    transition: .3s ease-in-out;
   }
 
   .nav__close:hover{
-  color: var(--title-color-dark);
+  color: var(--red-color);
+  transform: scale(1.2);
   }
 
   .nav__toggle {

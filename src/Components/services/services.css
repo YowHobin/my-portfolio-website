@@ -83,6 +83,12 @@
   font-size: 1.5rem;
   color: var(--title-color);
   cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.services__modal-close:hover{
+  color: var(--red-color);
+  transform: scale(1.2);
 }
 
 .services__modal-title,

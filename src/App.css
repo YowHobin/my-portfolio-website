@@ -16,6 +16,7 @@
   --container-color: #fff;
   --green-color: #517d4a;
   --lightgreen-color: #7ac16f;
+  --red-color: #bf2c2c;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -62,6 +63,7 @@
     --normal-font-size: 0.938rem;
     --small-font-size: 0.813rem;
     --smaller-font-size: 0.75rem;
+    --h2-h3-font: 1.16rem;
   }
 }
 
@@ -155,11 +157,12 @@ img {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 2rem;
+  padding: 1.25rem 1.70rem;
+  border-radius: 1rem;
   font-weight: var(--font-medium);
   max-width: 13rem;
   transition: all 0.3s ease-out; /* Updated transition duration */
+  
 }
 
 .button:hover {

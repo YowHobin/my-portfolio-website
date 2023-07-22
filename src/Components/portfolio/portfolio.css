@@ -1,0 +1,98 @@
+.portfolio__container {
+  width: 750px;
+  margin-bottom: 10rem;
+}
+
+
+/* .recentWork__card {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  
+  border-radius: 1rem;
+  margin-bottom: var(--mb-3);
+  background-color: red;
+} */
+
+.work__holder{
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  margin: 0 1rem;
+}
+
+.recentWork__image {
+  height: 8rem;
+  border-radius: 3rem;
+  width: 15rem;
+  margin-bottom: var(--mb-1);
+}
+
+.work-portfolio__description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.work__name{
+  margin-bottom: var(--mb-1);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.work__button{
+  margin-top: var(--mb-3);
+}
+
+.work__arrow{
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
+/* Add margin on both sides for screens less than or equal to 992px */
+.swiper-container.small-screen {
+  margin: 0 30px;
+}
+
+/* Center the Swiper for screens greater than 992px */
+.swiper-container:not(.small-screen) {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* swiper */
+.swiper-pagination-bullet {
+  background-color: var(--green-color) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--green-color) !important;
+}
+
+.swiper {
+  padding: 10px;
+}
+
+
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .portfolio__container{
+    width: initial;
+  }
+
+  .recentWork__card{
+    padding: 1.25rem 1.5rem;
+  }
+}
+

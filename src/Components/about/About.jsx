@@ -46,9 +46,7 @@ const About = () => {
             data-aos="zoom-in-left"
             data-aos-delay="300"
           >
-            As a recent web development graduate, I am eager to leverage
-            my technical skills and creativity to contribute to innovative
-            digital projects. My journey into the world of web development began
+            My journey into the world of web development began in 2013
             with a fascination for crafting visually appealing and intuitive
             user experiences that seamlessly blend form and function.
           </p>

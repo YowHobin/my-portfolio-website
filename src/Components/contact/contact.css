@@ -1,0 +1,294 @@
+.contact__container{
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  column-gap: 6rem;
+  padding-bottom: 3rem;
+}
+
+.contact__title{
+  text-align: center;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1-5);
+}
+
+.contact__info {
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: 300px;
+}
+
+.contact__card{
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.contact__icon-icon {
+  font-size: 2rem;
+  color: var(--title-color);
+  margin-bottom: var(--mb-0-25);
+}
+
+
+.contact__card-title,
+.contact__card-data {
+  font-size: var(--small-font-size);
+}
+
+.contact__card-title {
+  font-weight: var(--font-medium);
+}
+
+.contact__card-data {
+  display: block;
+  margin-bottom: var(--mb-0-75);
+}
+
+.contact__button {
+  color: var(--text-color);
+  font-size: var(--small-font-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.25rem;
+    transition: 0.3s;
+}
+
+.contact__button:hover {
+  transform: scale(1.2);
+  color: var(--lightgreen-color);
+}
+
+.contact__button-icon {
+  font-size: 1.2rem;
+
+}
+
+
+.contact__form{
+  width: 360px;
+}
+
+
+.contact__form-div {
+  position: relative;
+  margin-bottom: var(--mb-2);
+  height: 4rem;
+}
+
+.contact__form-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(0, 0, 0,0.3);
+  background: none;
+  color: var(--text-color);
+  outline: none;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  z-index: 1;
+}
+
+.contact__form-tag {
+  position: absolute;
+  top: -0.75rem;
+  left: 1.25rem;
+  font-size: var(--smaller-font-size);
+  padding: 0.25rem;
+  background-color: var(--body-color);
+  z-index: 10;
+}
+
+.contact__form-area {
+  height: 11rem;
+}
+
+.contact__form-area textarea {
+  resize: none;
+}
+
+/* button */
+
+
+:root {
+  --hue: 223;
+    --sat: 0%;
+  --bg1: hsl(var(--hue),10%,90%);
+  --bg2: hsl(var(--hue),10%,80%);
+  --fg1: hsl(var(--hue),10%,10%);
+  --fg2: hsl(var(--hue),10%,20%);
+  --primary1: hsl(var(--hue), var(--sat), 20%);
+  --primary2: #517d4a;
+}
+
+/* Main button styles */
+.btn {
+  background-color: transparent;
+  border-radius: 1rem;
+  display: block;
+  position: relative;
+  width: 7.5em;
+  height: 3em;
+  transition: width 0.3s ease-in-out;
+  font-family: var(--body-font);
+  font-size: var(--h2-h3-font);
+  transition: .3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+.btn:not(:disabled):active {
+  transform: translateY(0.1em);
+}
+.btn__text {
+  background-color: var(--primary1);
+  border-radius: inherit;
+  color: hsl(0,0%,100%);
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  transition:
+    background-color 0.15s linear,
+    color 0.15s 0.3s ease-in-out;
+  width: 100%;
+}
+.btn:not(:disabled):focus .btn__text,
+.btn:not(:disabled):hover .btn__text {
+  background-color: var(--primary2);
+}
+.btn__progress {
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3em;
+  height: 3em;
+  visibility: hidden;
+}
+.btn__progress-track {
+  r: 12px;
+  stroke: var(--bg2);
+  stroke-width: 24;
+}
+.btn__progress-fill {
+  stroke: var(--primary1);
+  stroke-dashoffset: 125.66;
+}
+.btn__progress-check {
+  stroke: hsl(0,0%,100%);
+  stroke-dashoffset: 34;
+}
+
+/* Both states */
+.btn--running,
+.btn--done {
+  outline: none;
+  pointer-events: none;
+  width: 3em;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.btn--running .btn__text,
+.btn--done .btn__text {
+  color: transparent;
+  transition:
+    background-color 0.3s ease-in-out,
+    visibility 0.3s steps(1);
+}
+.btn--running .btn__progress,
+.btn--done .btn__progress {
+  visibility: visible;
+}
+
+/* Running state */
+.btn--running .btn__text {
+  background-color: var(--bg2);
+  visibility: hidden;
+}
+.btn--running .btn__progress {
+  transition: visibility 0.3s 0.3s steps(1,start);
+}
+.btn--running .btn__progress-track {
+  r: 20px;
+  stroke-width: 8;
+  transition:
+    r 0.3s 0.3s ease-in-out,
+    stroke-width 0.3s 0.3s ease-in-out;
+}
+.btn--running .btn__progress-fill {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 2s 0.6s linear;
+}
+
+/* Done state */
+.btn--done .btn__progress-track {
+  stroke: var(--primary1);
+  transition:
+    r 0.3s ease-in-out,
+    stroke-width 0.3s ease-in-out;
+}
+.btn--done .btn__progress-check {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.3s 0.3s ease-out;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg1: hsl(var(--hue),10%,10%);
+    --bg2: hsl(var(--hue),10%,20%);
+    --fg1: hsl(var(--hue),10%,90%);
+    --fg2: hsl(var(--hue),10%,80%);
+  }
+}
+
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .contact__container{
+    column-gap: 3rem;
+  }
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .contact__info{
+    justify-content: center;
+  }
+
+  .contact__form {
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .contact__info {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__form {
+    width: 100%;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  
+}
+
