@@ -22,8 +22,9 @@ const App = () => {
     }, 2000);
   }
   return (
+    
     <>
-      !loading && (
+      
       <Header />
       <main className="main">
         <Home />
@@ -36,8 +37,9 @@ const App = () => {
       </main>
       <Footer />
       <ScrollUp />
-      )
+      
     </>
+    
   );
 };
 
