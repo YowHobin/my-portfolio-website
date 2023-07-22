@@ -13,7 +13,7 @@ import Skills from "./Components/skills/Skills";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
-  const spinner = document.getElementById("id");
+  const spinner = document.getElementById("spinner");
 
   if (spinner) {
     setTimeout(() => {
