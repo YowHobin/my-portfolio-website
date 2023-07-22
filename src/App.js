@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import About from "./Components/about/About";
 import Contact from "./Components/contact/Contact";
@@ -11,8 +12,18 @@ import Services from "./Components/services/Services";
 import Skills from "./Components/skills/Skills";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("id");
+
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 2000);
+  }
   return (
     <>
+      !loading && (
       <Header />
       <main className="main">
         <Home />
@@ -25,8 +36,9 @@ const App = () => {
       </main>
       <Footer />
       <ScrollUp />
+      )
     </>
   );
-}
+};
 
-export default App
+export default App;

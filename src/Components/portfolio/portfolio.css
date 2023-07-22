@@ -28,7 +28,7 @@
 
 .recentWork__image {
   height: 8rem;
-  border-radius: 3rem;
+  border-radius: 1.5rem;
   width: 15rem;
   margin-bottom: var(--mb-1);
 }
