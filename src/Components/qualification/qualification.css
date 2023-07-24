@@ -120,6 +120,30 @@
   .qualification__button{
     margin: 0 var(--mb-1-5);
   }
+
+  .qualification__data {
+    gap: 0.7rem;
+  }
+
+  .qualification__title {
+  text-align: center;
+}
+
+.qualification__subtitle {
+
+  text-align: center;
+}
+
+.awards {
+
+  text-align: center;
+}
+
+.qualification__calendar {
+  text-align: center;
+}
+
+
 }
 
 /* For small devices */
