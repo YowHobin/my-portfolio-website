@@ -21,7 +21,7 @@ const Data = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Web Developer", "Technology Connoisseur", "Pogi"],
+      strings: ["Web Developer", "Technology Connoisseur", "Application Designer"],
       typeSpeed: 90,
       backSpeed: 50,
       startDelay: 500,
