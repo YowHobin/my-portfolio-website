@@ -2,8 +2,10 @@ import ReactJS from "../../assets/React.png";
 import BS from "../../assets/bootstrap.png";
 import CSS from "../../assets/css.png";
 import HTML from "../../assets/html5.png";
+import jquery from "../../assets/jquery.png";
 import JS from "../../assets/js.png";
 import Next from "../../assets/next.png";
+import sass from "../../assets/sass.png";
 import TW from "../../assets/tailwind.png";
 import TS from "../../assets/ts.png";
 
@@ -50,6 +52,15 @@ const Frontend = () => {
           </div>
 
           <div className="skills__data">
+            <img src={sass} alt="html" className="logos" />
+
+            <div>
+              <h3 className="skills__name">SASS</h3>
+              <span className="skills__level">Less than 6 months</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
             <img src={JS} alt="html" className="logos" />
 
             <div>
@@ -85,6 +96,15 @@ const Frontend = () => {
             <div>
               <h3 className="skills__name">Tailwind CSS</h3>
               <span className="skills__level">Less than 6 months</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <img src={jquery} alt="html" className="logos" />
+
+            <div>
+              <h3 className="skills__name">jQuery</h3>
+              <span className="skills__level">More than 2 years</span>
             </div>
           </div>
 
