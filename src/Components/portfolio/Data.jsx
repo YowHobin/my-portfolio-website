@@ -27,7 +27,7 @@ export const Data = [
     title: "Carhub",
     link: "https://carshowcase-two.vercel.app/",
     description:
-      "A car showcase landing page with the use of API!",
+      "A car showcase landing page with the use of API! ",
   },
   {
     id: 4,
