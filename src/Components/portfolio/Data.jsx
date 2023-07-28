@@ -2,6 +2,7 @@ import carhub from "../../assets/carhub.png";
 import emoji from "../../assets/emoji.jpg";
 import bank from "../../assets/hoobank.png";
 import rogo from "../../assets/rogo.png";
+import shortener from "../../assets/shortener.png";
 import YT from "../../assets/yt.jpg";
 
 export const Data = [
@@ -11,7 +12,7 @@ export const Data = [
     title: "ROGO Service Center",
     link: "https://rogo-service-center.epizy.com/",
     description:
-      "A Web-based appointment scheduling system created for ROGO Service Center as a Capstone Project Client ",
+      "A Web-based appointment scheduling system created for ROGO Service Center as a Capstone Project Client.",
   },
   {
     id: 2,
@@ -26,21 +27,27 @@ export const Data = [
     image: carhub,
     title: "CarHub",
     link: "https://carshowcase-two.vercel.app/",
-    description:
-      "A car showcase landing page with the use of API! ",
+    description: "A car showcase landing page with the use of API! ",
   },
   {
     id: 4,
-    image: bank,
-    title: "Hoobank",
-    link: "https://modern-bank-app-pied-eight.vercel.app/",
-    description: "A fully responsive modern bank page",
+    image: shortener,
+    title: "URL Shortener",
+    link: "https://url-shortener-one-murex.vercel.app/",
+    description: "A simple link shortener with shrtco.de API! ",
   },
   {
     id: 5,
+    image: bank,
+    title: "Hoobank",
+    link: "https://modern-bank-app-pied-eight.vercel.app/",
+    description: "A fully responsive modern bank page.",
+  },
+  {
+    id: 6,
     image: YT,
     title: "Youtube-clone",
     link: "https://github.com/YowHobin/youtube-clone",
-    description: "A youtube clone to enhance my HTML and CSS skills",
+    description: "A youtube clone to enhance my HTML and CSS skills.",
   },
 ];
