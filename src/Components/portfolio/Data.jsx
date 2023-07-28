@@ -1,3 +1,4 @@
+import carhub from "../../assets/carhub.png";
 import emoji from "../../assets/emoji.jpg";
 import bank from "../../assets/hoobank.png";
 import rogo from "../../assets/rogo.png";
@@ -22,13 +23,21 @@ export const Data = [
   },
   {
     id: 3,
+    image: carhub,
+    title: "Carhub",
+    link: "https://carshowcase-two.vercel.app/",
+    description:
+      "A car showcase landing page with the use of API!",
+  },
+  {
+    id: 4,
     image: bank,
     title: "Hoobank",
     link: "https://modern-bank-app-pied-eight.vercel.app/",
     description: "A fully responsive modern bank page",
   },
   {
-    id: 4,
+    id: 5,
     image: YT,
     title: "Youtube-clone",
     link: "https://github.com/YowHobin/youtube-clone",
