@@ -46,14 +46,14 @@ const About = () => {
             data-aos="zoom-in-left"
             data-aos-delay="300"
           >
-            My journey into the world of web development began in 2013
-            with a fascination for crafting visually appealing and intuitive
-            user experiences that seamlessly blend form and function.
+            My journey into the world of web development began in 2013 with a
+            fascination for crafting visually appealing and intuitive user
+            experiences that seamlessly blend form and function.
           </p>
 
           <div data-aos="zoom-in" data-aos-delay="300">
             <a
-              href="https://drive.google.com/file/d/1g6-NGmpM_va49jsoOVPAD4M1TPm9IwOQ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1W6JDD3Xvi-CPwFaKmYDF91Vp6ADohAmX/view?usp=drive_link"
               className="button button--flex"
               target="_blank"
               rel="noopener noreferrer"
