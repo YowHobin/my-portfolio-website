@@ -38,7 +38,7 @@
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
-  transition: .3s color ease-in-out;
+  transition: .3s all ease-in-out;
 }
 
 
@@ -52,12 +52,14 @@
 .active-link,
 .nav__link:hover {
   color: #7ac16f;
+  font-size: 1rem;
 }
 
 .active-link,
 .nav__link:active {
   color: #7ac16f;
   border-bottom:3px solid #7ac16f;
+  font-size: var(--small-font-size);
 }
 
 /* change background header */
