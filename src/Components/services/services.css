@@ -2,7 +2,7 @@
   grid-template-columns: repeat(2, 300px);
   justify-content: center;
   column-gap: 1.3rem;
-  margin-bottom: 10rem;
+  margin-bottom: 17rem;
 }
 
 .services__content {
@@ -154,6 +154,10 @@
   .services__modal-description {
     padding: 0;
   }
+
+  .services__container {
+  margin-bottom: 10rem;
+}
 }
 
 /* For small devices */
