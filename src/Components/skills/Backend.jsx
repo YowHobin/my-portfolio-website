@@ -64,7 +64,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">MySQL</h3>
-              <span className="skills__level">More than 6 months</span>
+              <span className="skills__level">More than 3 years</span>
             </div>
           </div>
 
