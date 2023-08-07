@@ -3,16 +3,17 @@ import emoji from "../../assets/emoji.jpg";
 import bank from "../../assets/hoobank.png";
 import rogo from "../../assets/rogo.png";
 import shortener from "../../assets/shortener.png";
+import threads from "../../assets/threads.png";
 import YT from "../../assets/yt.jpg";
 
 export const Data = [
   {
     id: 1,
-    image: rogo,
-    title: "ROGO Service Center",
-    link: "https://rogo-service-center.epizy.com/",
+    image: threads,
+    title: "Threads Web Application",
+    link: "https://instagram-threads.vercel.app/",
     description:
-      "A Web-based appointment scheduling system created for ROGO Service Center as a Capstone Project Client.",
+      "A simple web application from a newly released mobile application Threads!",
   },
   {
     id: 2,
@@ -45,6 +46,14 @@ export const Data = [
   },
   {
     id: 6,
+    image: rogo,
+    title: "ROGO Service Center",
+    link: "https://rogo-service-center.epizy.com/",
+    description:
+      "A Web-based appointment scheduling system created for ROGO Service Center as a Capstone Project Client.",
+  },
+  {
+    id: 7,
     image: YT,
     title: "Youtube-clone",
     link: "https://github.com/YowHobin/youtube-clone",

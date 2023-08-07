@@ -17,6 +17,7 @@ const Skills = () => {
       anchorPlacement: "top-center",
     });
   }, []);
+
   return (
     <section className="skills section" id="skills">
       <h2
