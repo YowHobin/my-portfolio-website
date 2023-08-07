@@ -54,7 +54,7 @@ const Portfolio = () => {
         className="portfolio__container"
         grabCursor={true}
         spaceBetween={5}
-        loop={true}
+        loop={false}
         pagination={{
           clickable: true,
         }}
