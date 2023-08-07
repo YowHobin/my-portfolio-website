@@ -82,7 +82,7 @@ const Services = () => {
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uis uis-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I design and implement cutting-edge products and features
                     that drive success for every project.
@@ -90,7 +90,7 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uis uis-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I am well-versed in various web development frameworks and
                     languages, allowing me to adapt quickly and efficiently to
@@ -99,7 +99,7 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uis uis-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I meticulously test and optimize code to ensure smooth
                     functionality across different browsers and devices.
@@ -107,7 +107,7 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uis uis-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I constantly explore new technologies and methodologies to
                     enhance web development practices.
@@ -160,7 +160,7 @@ const Services = () => {
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uis uis-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I skillfully craft UX element interactions to optimize
                     usability and drive conversions.
@@ -168,7 +168,7 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uis uis-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     My goal is to strike the perfect balance between aesthetics
                     and functionality, resulting in intuitive and delightful
@@ -177,7 +177,7 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uis uis-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Efficient in visualization and refinement of design concepts
                     for seamless implementation.
@@ -185,7 +185,7 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uis uis-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I collaborate with cross-functional teams to deliver
                     innovative and cohesive design solutions.
@@ -193,7 +193,7 @@ const Services = () => {
                 </li>
 
                 <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <i className="uis uis-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     I ensure that each design decision aligns with the target
                     audience's needs.
