@@ -10,7 +10,7 @@ export const Data = [
   {
     id: 1,
     image: threads,
-    title: "Threads Web Application",
+    title: "Threads Web App",
     link: "https://instagram-threads.vercel.app/",
     description:
       "A simple web application from a newly released mobile application Threads!",
