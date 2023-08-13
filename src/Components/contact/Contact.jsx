@@ -65,7 +65,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="contact__button"
               >
-                Write me{" "}
+                Contact Me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -82,7 +82,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="contact__button"
               >
-                Write me{" "}
+                Contact Me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -94,7 +94,7 @@ const Contact = () => {
               <span className="contact__card-data">09569281860</span>
 
               <a href="tel: 09569281860" className="contact__button">
-                Write me{" "}
+                Contact Me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -161,7 +161,6 @@ const Contact = () => {
                 ></path>
               </svg>
             </button>
-            
           </form>
         </div>
       </div>
