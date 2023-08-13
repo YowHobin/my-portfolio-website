@@ -2,7 +2,7 @@ import figma from "../../assets/figma.png";
 import git from "../../assets/git.png";
 import infinity from "../../assets/infinityfree.png";
 import vercel from "../../assets/vercel.png";
-import vite from "../../assets/vite.png"
+import vite from "../../assets/vite.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -73,7 +73,7 @@ const AcquiredSkills = () => {
         </div>
       </div>
 
-      {/* additional skills outside the box */}
+      {/* additional skills odd looking */}
       <div className="skills__data odd">
         <img src={vite} alt="html" className="logos" />
 

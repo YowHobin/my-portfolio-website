@@ -53,6 +53,7 @@
 
 .skills__level{
   font-size: var(--smaller-font-size);
+  margin-top: 0.3rem;
 }
 
 .skills__data {
@@ -87,9 +88,10 @@
   margin-bottom: 1.5rem;
 }
 
+/*=============== odd ===============*/
 .odd {
   display: flex;
-  margin-top: 1.5rem;
+  margin-top: 0.9rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
