@@ -2,6 +2,7 @@ import figma from "../../assets/figma.png";
 import git from "../../assets/git.png";
 import infinity from "../../assets/infinityfree.png";
 import vercel from "../../assets/vercel.png";
+import vite from "../../assets/vite.png"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -69,6 +70,16 @@ const AcquiredSkills = () => {
               <span className="skills__level">More than 3 years</span>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* additional skills outside the box */}
+      <div className="skills__data odd">
+        <img src={vite} alt="html" className="logos" />
+
+        <div>
+          <h3 className="skills__name">Vite</h3>
+          <span className="skills__level">Less than 6 months</span>
         </div>
       </div>
     </div>

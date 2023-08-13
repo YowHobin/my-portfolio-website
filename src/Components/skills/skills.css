@@ -87,6 +87,15 @@
   margin-bottom: 1.5rem;
 }
 
+.odd {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
