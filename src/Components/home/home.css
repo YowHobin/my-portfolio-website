@@ -65,7 +65,8 @@
   justify-self: center;
   width: 300px;
   height: 380px;
-  animation: profile__animate 5s ease-in-out infinite 1s;
+  animation: profile__animate 13.5s ease-in-out infinite 1s;
+  border: solid #161616 2px;
 }
 
 

@@ -22,10 +22,9 @@ const Data = () => {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["Web Developer", "Technology Connoisseur", "Application Designer"],
-      typeSpeed: 90,
+      typeSpeed: 100,
       backSpeed: 50,
-      startDelay: 500,
-      backDelay: 150,
+      startDelay: 1000,
       smartBackspace: true,
       loop: true,
     });
