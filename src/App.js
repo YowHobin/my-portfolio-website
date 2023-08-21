@@ -1,5 +1,5 @@
 import { useEffect,useState } from "react";
-import SyncLoader from "react-spinners/SyncLoader";
+import HashLoader from "react-spinners/HashLoader";
 import "./App.css";
 import About from "./Components/about/About";
 import Contact from "./Components/contact/Contact";
@@ -11,6 +11,7 @@ import { Qualification } from "./Components/qualification/Qualification";
 import ScrollUp from "./Components/scrollUp/ScrollUp";
 import Services from "./Components/services/Services";
 import Skills from "./Components/skills/Skills";
+
 
 
 const App = () => {
@@ -66,7 +67,7 @@ export default App; */
     <div className="app">
       {loading ? (
         <div className="loader-container">
-          <SyncLoader Syncsize={30} color="#212c29" loading={loading} />
+          <HashLoader Syncsize={30} color="#212c29" loading={loading} />
         </div>
       ) : (
         <>
