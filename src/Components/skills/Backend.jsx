@@ -4,6 +4,7 @@ import next from "../../assets/next.png";
 import node from "../../assets/nodejs.png";
 import PHP from "../../assets/php.png";
 import prisma from "../../assets/prisma.png";
+import laravel from "../../assets/laravel.png"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -85,6 +86,16 @@ const Backend = () => {
               <span className="skills__level">Less than 6 months</span>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* additional skills odd looking */}
+      <div className="skills__data odd">
+        <img src={laravel} alt="html" className="logos" />
+
+        <div>
+          <h3 className="skills__name">Laravel</h3>
+          <span className="skills__level">Less than 6 months</span>
         </div>
       </div>
     </div>
