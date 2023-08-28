@@ -53,7 +53,7 @@ const About = () => {
 
           <div data-aos="zoom-in" data-aos-delay="300">
             <a
-              href="https://drive.google.com/file/d/1CoFnKpnPkuFLc_c5mfakFnUAEKIbo9SC/view?usp=sharing"
+              href="https://drive.google.com/file/d/13pEvSQRK5FJk4s8fVvgujpGR-n1q2McS/view"
               className="button button--flex"
               target="_blank"
               rel="noopener noreferrer"

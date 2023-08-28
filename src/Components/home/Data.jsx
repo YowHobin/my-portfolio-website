@@ -21,7 +21,7 @@ const Data = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Web Developer", "Technology Connoisseur", "Application Designer"],
+      strings: ["Web Developer", "Front-End Developer", "Back-End Developer", "Software Engineer", "Any Software Dev Job"],
       typeSpeed: 100,
       backSpeed: 50,
       startDelay: 1000,
@@ -44,7 +44,11 @@ const Data = () => {
       </h1>
 
       <h3 className="home__subtitle" data-aos="fade-down" data-aos-delay="300">
-        <span ref={el}></span>
+        <div className="home__inner">
+          <p>I can be</p>
+          <span ref={el}></span>
+        </div>
+        
       </h3>
 
       <p
