@@ -84,6 +84,14 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uis uis-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
+                    I implement responsive design to my projects as there will be 
+                    users that will access the website through various devices.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uis uis-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
                     I design and implement cutting-edge products and features
                     that drive success for every project.
                   </p>
