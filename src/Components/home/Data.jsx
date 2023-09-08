@@ -21,7 +21,7 @@ const Data = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Web Developer", "Front-End Developer", "Back-End Developer", "Software Engineer", "Any Software Dev Job"],
+      strings: ["Front-End Developer", "ReactJS Developer", "Web Developer"],
       typeSpeed: 100,
       backSpeed: 50,
       startDelay: 1000,
@@ -45,7 +45,7 @@ const Data = () => {
 
       <h3 className="home__subtitle" data-aos="fade-down" data-aos-delay="300">
         <div className="home__inner">
-          <p>I can be</p>
+          {/* <p>I can be</p> */}
           <span ref={el}></span>
         </div>
         
@@ -56,8 +56,8 @@ const Data = () => {
         data-aos="fade-down"
         data-aos-delay="400"
       >
-        Fueled by curiosity and a love for web development, I create impactful
-        and visually appealing websites.
+        Fueled by curiosity and a love for web & app development, I create impactful
+        and visually appealing applications. 
       </p>
 
       <div data-aos="zoom-in-down" data-aos-delay="500">

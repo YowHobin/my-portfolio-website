@@ -1,5 +1,5 @@
 .skills__container{
-  grid-template-columns: repeat(3, 320px);
+  grid-template-columns: repeat(3, 340px);
   column-gap: 0.8rem;
   justify-content: center;
   margin-bottom: 10rem;
@@ -22,7 +22,7 @@
 .skills_box{
   display: flex;
   justify-content: center;
-  column-gap: 1.5rem;
+  column-gap: 2.5rem;
 
 }
 

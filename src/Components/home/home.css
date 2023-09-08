@@ -75,28 +75,25 @@
   background: url(../../assets/1964_ARELLANO_LENARD_ROY_CEA22439.JPG);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0px 0px 42px 5px #787878;
+  box-shadow: 0px 0px 42px 1px #aaaaaa;
   order: 1;
   justify-self: center;
   width: 300px;
   height: 380px;
-  animation: profile__animate 13.5s ease-in-out infinite 1s;
+  animation: profile__animate 13.5s ease-in-out infinite;
+  transition: profile__animate 1s ease-in-out;
   border: solid #161616 2px;
 }
 
 
 
 @keyframes profile__animate {
-  0% {
+  0%, 100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 
   50% {
     border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-  }
-
-100% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
 

@@ -46,9 +46,9 @@ const About = () => {
             data-aos="zoom-in-left"
             data-aos-delay="300"
           >
-            My journey into the world of web development began in 2013 with a
-            fascination for crafting visually appealing and intuitive user
-            experiences that seamlessly blend form and function.
+            My interest in web and app development sparked in 2013 when I used a
+            computer for the first time and asked myself, "Can I make this too?"
+            Today, I'm actually making it happen!
           </p>
 
           <div data-aos="zoom-in" data-aos-delay="300">

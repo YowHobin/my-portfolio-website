@@ -114,9 +114,13 @@ export const Qualification = () => {
                 data-aos-delay="600"
                 data-aos-anchor-placement="center-bottom"
               >
-                <h3 className="qualification__title">Information, Communications, and Techonology</h3>
-                <span className="qualification__subtitle">Buting Senior High School</span>
-                <p className="awards">Academic Achiever & Dean's Lister</p>
+                <h3 className="qualification__title">
+                  Information, Communications, and Techonology
+                </h3>
+                <span className="qualification__subtitle">
+                  Buting Senior High School
+                </span>
+                <p className="awards">With Honors</p>
 
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2017 - 2019
@@ -135,13 +139,14 @@ export const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">UCCAE Intern</h3>
+                <h3 className="qualification__title"> Web Developer Intern</h3>
                 <span className="qualification__subtitle">
                   Rizal Technological University
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> September  - December 2022
+                  <i className="uil uil-calendar-alt"></i> September - December
+                  2022
                 </div>
               </div>
 
@@ -160,9 +165,9 @@ export const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Florist Manila</h3>
+                <h3 className="qualification__title">Business Administrator</h3>
                 <span className="qualification__subtitle">
-                  Business Administrator
+                  Florist Manila (Flower Shop)
                 </span>
 
                 <div className="qualification__calendar">
@@ -170,7 +175,6 @@ export const Qualification = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
