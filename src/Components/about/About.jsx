@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import AboutImg from "../../assets/about.jpg";
+import AboutImg from "../../assets/enhanced_11zon.jpg";
 import "./about.css";
 
 const About = () => {

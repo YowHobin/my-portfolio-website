@@ -1,10 +1,13 @@
+import JS from "../../assets/js.png";
+import laravel from "../../assets/laravel.png";
 import mongodb from "../../assets/mongodb.png";
 import sql from "../../assets/mysql.png";
 import next from "../../assets/next.png";
 import node from "../../assets/nodejs.png";
 import PHP from "../../assets/php.png";
 import prisma from "../../assets/prisma.png";
-import laravel from "../../assets/laravel.png"
+import TS from "../../assets/ts.png";
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -56,6 +59,15 @@ const Backend = () => {
               <span className="skills__level">Less than 6 months</span>
             </div>
           </div>
+
+          <div className="skills__data">
+            <img src={JS} alt="html" className="logos" />
+
+            <div>
+              <h3 className="skills__name">JavaScript</h3>
+              <span className="skills__level">More than 1 year</span>
+            </div>
+          </div>
         </div>
 
         {/* 2nd Column */}
@@ -83,6 +95,15 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">MongoDB</h3>
+              <span className="skills__level">Less than 6 months</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <img src={TS} alt="html" className="logos" />
+
+            <div>
+              <h3 className="skills__name">TypeScript</h3>
               <span className="skills__level">Less than 6 months</span>
             </div>
           </div>
