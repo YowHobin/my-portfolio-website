@@ -1,9 +1,8 @@
 import emailjs from '@emailjs/browser';
-
-import "./contact.css";
-
 import { useRef } from 'react';
+import Swal from 'sweetalert2';
 import "./button.js";
+import "./contact.css";
 
 
 const Contact = () => {
@@ -21,6 +20,14 @@ const Contact = () => {
       )
       e.target.reset()
   };
+
+  const handleClick = () =>{
+    Swal.fire({
+      icon: "success",
+      title: "You have sent an email!",
+      text: "I'll come back to you as soon as possible",
+    });
+  }
 
   
 
@@ -141,6 +148,7 @@ const Contact = () => {
             <button
               href="mailto:lenardroyarellano@gmail.com"
               className="button button--flex button-data"
+              onClick={handleClick}
             >
               Submit
               <svg
